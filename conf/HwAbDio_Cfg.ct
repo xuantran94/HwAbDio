@@ -1,0 +1,11 @@
+#include "HwAbDio_Cfg.h"
+#if (HWABDIO_CFG_MODULE_ACTIVE == STD_ON) 
+const hwAbDioConfig_tst hwAbDioConfig_ast[HWABDIO_CFG_NUM] =
+{
+<SIGNALS CONFIGURATIONS>
+};
+const hwAbDio_DeviceInterface_tst* const hwAbDioDevConfig_ast[HWABDIODEV_CFG_NUM] =
+{
+<DEVICES CONFIGURATIONS>
+};
+#endif

@@ -1,0 +1,3 @@
+
+COMPONENT_ADD_INCLUDEDIRS := src conf
+COMPONENT_SRCDIRS := src conf
